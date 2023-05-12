@@ -1,6 +1,6 @@
 {
   "name": "@rea-scripts/registry-default",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rea脚手架",
   "main": "dist/index.js",
   "scripts": {
@@ -20,9 +20,9 @@
   "author": "xzd",
   "license": "MIT",
   "dependencies": {
-    "@rea-scripts/config": "^0.0.2",
-    "@rea-scripts/plugin": "^0.0.2",
-    "@rea-scripts/util": "^0.0.2",
+    "@rea-scripts/config": "^0.0.3",
+    "@rea-scripts/plugin": "^0.0.3",
+    "@rea-scripts/util": "^0.0.3",
     "axios": "^0.26.1",
     "download": "^8.0.0",
     "ejs": "^3.1.6",

@@ -40,5 +40,8 @@
   },
   "maintainers": [
     "xzd"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

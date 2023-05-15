@@ -19,5 +19,3 @@ docs-dist
 */*/.ols/themes
 
 */*/*.tgz
-
-*.js

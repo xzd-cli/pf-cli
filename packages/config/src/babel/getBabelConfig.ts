@@ -1,8 +1,12 @@
 import resolvePlugin from './resolvePlugin'
 
-export default function getBabelConfig(isEnvDevelopment = false) {
+export default function getBabelConfig(isEnvDevelopment = false, isImport=false) {
   const plugins = [
-    ['babel-plugin-import', { libraryName: 'antd', libraryDirectory: 'lib', style: true }, 'antd'],
+    ['babel-plugin-import', { 
+      libraryName: 'antd', 
+      libraryDirectory: isImport ? 'es' : 'lib',
+      style: true 
+    }, 'antd'],
     '@babel/plugin-syntax-dynamic-import',
     '@rea-scripts/plugin/auto-css-modules',
     process.env.REACT_REFERSH !== 'none' && isEnvDevelopment && require.resolve('react-refresh/babel'),

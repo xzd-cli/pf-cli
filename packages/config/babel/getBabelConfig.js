@@ -4,10 +4,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var resolvePlugin_1 = __importDefault(require("./resolvePlugin"));
-function getBabelConfig(isEnvDevelopment) {
+function getBabelConfig(isEnvDevelopment, isImport) {
     if (isEnvDevelopment === void 0) { isEnvDevelopment = false; }
+    if (isImport === void 0) { isImport = false; }
     var plugins = [
-        ['babel-plugin-import', { libraryName: 'antd', libraryDirectory: 'lib', style: true }, 'antd'],
+        ['babel-plugin-import', {
+                libraryName: 'antd',
+                libraryDirectory: isImport ? 'es' : 'lib',
+                style: true
+            }, 'antd'],
         '@babel/plugin-syntax-dynamic-import',
         '@rea-scripts/plugin/auto-css-modules',
         process.env.REACT_REFERSH !== 'none' && isEnvDevelopment && require.resolve('react-refresh/babel'),

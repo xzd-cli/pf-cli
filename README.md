@@ -110,7 +110,7 @@ module.exports = {
       ]
     });
   },
-  chainWebpack(chian, config) { // 采用链式来修改webpack配置
+  chainWebpack(chain, config) { // 采用链式来修改webpack配置
   },
   plugins: [
     {
@@ -167,7 +167,7 @@ configureWebpack字段的作用是修改编译/构建前传入的webpackConfig
 export default {
   configureWebpack: {
     output: {
-   publicPath: 'cdn/static/www'
+      publicPath: 'cdn/static/www'
     }
   }
 }

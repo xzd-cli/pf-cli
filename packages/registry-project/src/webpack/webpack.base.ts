@@ -39,7 +39,7 @@ export default function webpackBase(ctx) {
 
   const htmlWebpackName = existsSync(paths.appPkg) ? require(paths.appPkg).name : ''
 
-  const { define } = ctx.userConfig
+  const { define, isImport } = ctx.userConfig
 
   return {
     entry: paths.appIndexJs,
@@ -92,7 +92,7 @@ export default function webpackBase(ctx) {
           use: [
             {
               loader: require.resolve('babel-loader'),
-              options: getBabelConfig(isEnvDevelopment),
+              options: getBabelConfig(isEnvDevelopment, isImport),
             },
           ].filter(Boolean),
         },

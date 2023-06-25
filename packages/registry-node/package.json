@@ -1,6 +1,6 @@
 {
   "name": "@rea-scripts/registry-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "rea脚手架",
   "main": "dist/index.js",
   "scripts": {
@@ -20,8 +20,8 @@
   "author": "xzd",
   "license": "MIT",
   "dependencies": {
-    "@rea-scripts/config": "^0.0.3",
-    "@rea-scripts/util": "^0.0.3",
+    "@rea-scripts/config": "^0.0.4",
+    "@rea-scripts/util": "^0.0.4",
     "ejs": "^3.1.6",
     "glob": "^7.2.0",
     "inquirer": "^8.2.0",

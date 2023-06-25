@@ -1,6 +1,6 @@
 {
   "name": "@rea-scripts/container",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "rea脚手架",
   "main": "dist/index.js",
   "scripts": {
@@ -20,11 +20,11 @@
   "author": "xzd",
   "license": "MIT",
   "dependencies": {
-    "@rea-scripts/registry-component": "^0.0.3",
-    "@rea-scripts/registry-default": "^0.0.3",
-    "@rea-scripts/registry-node": "^0.0.3",
-    "@rea-scripts/registry-project": "^0.0.3",
-    "@rea-scripts/util": "^0.0.3"
+    "@rea-scripts/registry-component": "^0.0.4",
+    "@rea-scripts/registry-default": "^0.0.4",
+    "@rea-scripts/registry-node": "^0.0.4",
+    "@rea-scripts/registry-project": "^0.0.4",
+    "@rea-scripts/util": "^0.0.4"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.1.1",

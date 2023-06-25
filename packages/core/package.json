@@ -1,6 +1,6 @@
 {
   "name": "@rea-scripts/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "rea脚手架",
   "main": "dist/index.js",
   "scripts": {
@@ -20,9 +20,9 @@
   "author": "xzd",
   "license": "MIT",
   "dependencies": {
-    "@rea-scripts/config": "^0.0.3",
-    "@rea-scripts/container": "^0.0.3",
-    "@rea-scripts/util": "^0.0.3",
+    "@rea-scripts/config": "^0.0.4",
+    "@rea-scripts/container": "^0.0.4",
+    "@rea-scripts/util": "^0.0.4",
     "commander": "6.0.0"
   },
   "devDependencies": {

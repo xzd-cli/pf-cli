@@ -1,6 +1,6 @@
 {
   "name": "@rea-scripts/cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "rea脚手架",
   "main": "dist/index.js",
   "bin": {
@@ -23,12 +23,12 @@
   "author": "mochen.du",
   "license": "MIT",
   "dependencies": {
-    "@rea-scripts/core": "^0.0.3",
-    "@rea-scripts/util": "^0.0.3",
+    "@rea-scripts/core": "^0.0.4",
+    "@rea-scripts/util": "^0.0.4",
     "mkdirp": "^1.0.4"
   },
   "devDependencies": {
-    "@rea-scripts/eslint-config": "^0.0.3",
+    "@rea-scripts/eslint-config": "^0.0.4",
     "@types/download": "^6.2.4",
     "@types/inquirer": "^7.3.0",
     "@types/node": "^14.14.12",

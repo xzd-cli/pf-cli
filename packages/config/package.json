@@ -1,6 +1,6 @@
 {
   "name": "@rea-scripts/config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "rea脚手架",
   "scripts": {
     "dev": "rimraf ./dist && tsc --watch",
@@ -40,8 +40,8 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
-    "@rea-scripts/plugin": "^0.0.3",
-    "@rea-scripts/util": "^0.0.3",
+    "@rea-scripts/plugin": "^0.0.4",
+    "@rea-scripts/util": "^0.0.4",
     "axios": "^0.24.0",
     "babel-jest": "^26.6.3",
     "babel-plugin-import": "^1.13.3",
